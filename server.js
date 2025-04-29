@@ -1,18 +1,20 @@
 import express from "express";
-import mongoose, { Schema, Document } from "mongoose";
+import mongoose from "mongoose";
 import dotenv from "dotenv";
+import cors from 'cors';
 
 dotenv.config();
 
 const app = express();
 
 // middleware
+app.use(cors());
 app.use(express.json()); // Parses incoming JSON requests
 app.use(express.urlencoded({ extended: true })); // Parses URL-encoded data
 
 app.use(cors({
-  origin: ['https://sorting-visualizer-rp5w.onrender.com/', 'http://localhost:5173'],
-  methods: ['GET', 'PUT',],
+  origin: ['https://sorting-visualizer-rp5w.onrender.com/', 'http://localhost:5174/', 'http://localhost:5173/', 'http://localhost:5174/sorting-visualizer'],
+  methods: ['GET', 'PUT'],
   credentials: true,
 }));
 
