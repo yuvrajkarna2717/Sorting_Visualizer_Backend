@@ -13,7 +13,7 @@ app.use(express.json()); // Parses incoming JSON requests
 app.use(express.urlencoded({ extended: true })); // Parses URL-encoded data
 
 app.use(cors({
-  origin: ['https://sorting-visualizer-rp5w.onrender.com/', 'https://sorting-visualizer-rp5w.onrender.com/sorting-visualizer'],
+  origin: ['https://sorting-visualizer-ten-delta.vercel.app/', 'https://sorting-visualizer-ten-delta.vercel.app/sorting-visualizer'],
   methods: ['GET', 'PUT'],
   credentials: true,
 }));
