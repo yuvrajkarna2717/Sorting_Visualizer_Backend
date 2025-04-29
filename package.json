@@ -1,0 +1,28 @@
+{
+  "name": "sorting_visualizer_backend",
+  "version": "1.0.0",
+  "description": "This is backend ofsorting visualizer.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvrajkarna2717/Sorting_Visualizer_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvrajkarna2717/Sorting_Visualizer_Backend/issues"
+  },
+  "homepage": "https://github.com/yuvrajkarna2717/Sorting_Visualizer_Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.0"
+  },
+  "devDependencies": {
+  }
+}
