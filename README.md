@@ -1,2 +1,2 @@
 # Sorting_Visualizer_Backend
-This is backend ofsorting visualizer.
+This is backend of sorting visualizer.
